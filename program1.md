@@ -9,6 +9,7 @@
 然后同一组受试者参与两次测试 , 所以我们采取相依样本检验 
 
 $H_0$假设在不会造成影响完成的时间, Ha假设在不匹配的情况下
+
 使用 $\mu_i$表示不匹配情况下完成的时间 , $\mu_c$则表示匹配情况下完成时间
 零假设 $H_0$:  $\mu_i = \mu_c $  , 文字的意义与颜色匹配与不匹配完成时间相同 , 即完成时间不变
 对立假设 $H_A$:   $\mu_i \neq \mu_c $   , 文字的意义与颜色匹配与不相同 , 即完成时间不相等
@@ -22,9 +23,16 @@ $H_0$假设在不会造成影响完成的时间, Ha假设在不匹配的情况�
 
 
 # Q4 绘制数据图
-    
-    
+
+两张图都是直方图
+
+这张图表示在文字的意义与颜色都匹配的图 , X轴表示完成时间 Y轴表示频率
 ![](https://raw.githubusercontent.com/Hu-liang/deep-learning-notebook/master/program1-1.png)
+
+这张图表示在文字的意义与颜色不匹配的图 , X轴表示完成时间 Y轴表示频率
+![](https://raw.githubusercontent.com/Hu-liang/deep-learning-notebook/master/program1-2.png)
+
+
 # Q5 执行统计检验并解读结果
 
 样本量N = 24
@@ -36,9 +44,9 @@ t临界值t-critical（此值需要根据课程提供的t值表查出，严格�
 样本差值的标准误SE（或者SEM，两种写法均可，至少保留三位小数）；SE = 0.993
 t统计量t-statistic（这一步需要指出计算过程）；
 
-t = $\bar{u_c} - \bar{u_i} \over {s \over \sqrt(n)}$ 
-  = -7.965/(4.865/$\sqrt(24$) 
-  = -7.749
+t = $\bar{u_c} - \bar{u_i} \over ({s \over \sqrt(n)}$ 
+  = -7.965/4.865/$\sqrt{24}$
+  = 8.021
 
 检验所得的P值（不需要精确值，指出是否小于α即可）。
 可以得出 p < α
